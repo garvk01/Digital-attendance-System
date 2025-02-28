@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Attendance - Face Recognition</title>
+    <link rel="stylesheet" href="project.css">
+    <script defer src="project.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Digital Attendance System</h1>
+    </header>
+
+    <div class="container">
+        <aside>
+            <!-- User Photo -->
+            <div class="photo-container">
+                <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png"  
+                     alt="User Profile Photo" class="photo-icon">
+            </div>
+
+            <ul>
+                <li><a href="myclass.html"><button>Class Dashboard</button></a></li>
+                <li><a href="feespending.html"><button>Dashboard</button></a></li>
+                <li><a href="calendar.html"><button>Calendar</button></a></li>
+                <li><a href="emergency.html"><button>Emergency Number</button></a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <h1>Welcome to the Face Recognition Attendance System</h1>
+            <p>Scan your face to mark attendance.</p>
+
+            <video id="camera" autoplay></video>
+
+            <!-- Buttons -->
+            <div class="button-container">
+                <button id="startRecognitionBtn" class="start-recognition-btn">Start Recognition</button>
+                <button id="markAttendanceBtn" class="mark-attendance-btn" disabled>Mark Your Attendance</button>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Digital Attendance System</p>
+    </footer>
+</body>
+</html>
